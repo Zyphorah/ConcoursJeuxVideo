@@ -1,0 +1,110 @@
+/* Le thème pour les héros */
+
+/* body de la page */
+#Inscription
+{
+    text-decoration: underline red;
+}
+#content_form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#formulaire
+{
+    background: rgb(110,187,210);
+    background: linear-gradient(90deg, rgba(110,187,210,1) 0%, rgba(255,253,0,1) 100%);
+    height: 400px;
+    width: 45%;
+    min-width: 450px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.44);
+-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.44);
+-moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.44);
+}
+#formulaire h1
+{
+    background-color:rgb(41, 41, 41);
+    color: white;
+    margin: 0;
+    padding-bottom:50px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    font-size: 30px;
+}
+#formulaire label
+{
+    font-size: 25px;
+}
+#wrap_register
+{
+    display: flex;
+    flex-direction: column;
+}
+.register_div
+{
+    display: flex;
+    flex-direction: row;   
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.register
+{
+    width: 100%;
+}
+#name
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+input[type='radio'] 
+{
+    transform: scale(1.5);
+}
+input:focus
+{
+    outline:none;
+    background-color: rgb(116, 255, 116);
+    border:1px solid black;
+}
+#heros
+{
+    margin-left: 11px;
+    margin-top:40px;
+}
+
+.equipe
+{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+button
+{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(14, 171, 0);
+    width: 100%;
+    border: none;
+    color: white;
+}
+button:hover
+{
+    background-color:rgb(12, 149, 0);
+}
+#first_name
+{
+    margin-right: 20px;
+    margin-left: 10px;
+}
